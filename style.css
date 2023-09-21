@@ -17,8 +17,10 @@ a{
 .card-list{
     display: flex;
     flex-wrap: wrap;
-    column-gap: 130px;
-    row-gap: 65px;
+    column-gap: 65px;
+    row-gap: 130px;
+    justify-content: center;
+    padding-bottom: 90px;
 }
 .card-list-discription{
     font-family: Ubuntu;
@@ -52,6 +54,15 @@ p{
     width: 420px;
     
 }
+.nav{
+    padding-top: 71px;
+    padding-bottom: 92px;
+}
+ul,p,h1,h2,h3{
+    padding: 0;
+    margin: 0;
+}
 button{
-
+    display: block;
+    margin: 0 auto;
 }
